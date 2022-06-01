@@ -52,6 +52,7 @@
 }
 
 .i-right{
+ 
     flex: 1;
     position: relative;
 }
@@ -62,14 +63,14 @@
 }
 
 .i-right>:nth-child(1){
-    transform: scale(0.9);
+    transform: scale(0.69);
     left: -15%;
     top:-9%
 }
 
 .i-right>:nth-child(2){
     top: -4.6rem;
-    transform: scale(0.9);
+    transform: scale(0.67);
     left: -3rem;
 }
 
@@ -80,22 +81,25 @@
 }
 
 .i-right>:nth-child(4){
-    transform:scale(0.6);
-    top: -19%;
-    left: -24%;
-    border-radius: 20%;
+    transform:scale(0.5);
+    top: 10%;
+    left: -12%;
+    border-radius: 19%;
     padding: 0;
+    
+}
+.i-right>:nth-child(4):hover{
+    transform: scale(0.7);
 }
 
+
+
 .blur{
-    position: absolute;
     width: 25rem;
     height: 14rem;
     border-radius: 50%;
-    background-color: #edd0ff;
+    background-color: #dabdec;
     z-index: -9;
-    top: -18%;
-    left:56%;
     filter: blur(80px);
-
-}
+  
+  }

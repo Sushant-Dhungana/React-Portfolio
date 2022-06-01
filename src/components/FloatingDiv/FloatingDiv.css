@@ -1,13 +1,13 @@
 .floatingdiv{
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     background:white;
-    box-shadow: var(--boxShadow);
+    box-shadow:  10px 0 5px -2px #888;
     border-radius: 17px ;
     align-items: center;
-    padding: 0px 28px 0px 0px;
+    padding: 10px 30px 0px 0px;
     height: 4.5rem;
-    width: 10rem;
+    width: 11rem;
     cursor: pointer;
 }
 
@@ -18,7 +18,7 @@
         
 }
 .floatingdiv>img:hover{
-        transform: scale(0.5) ;
+        transform: scale(0.5);
         
         
 }
@@ -36,5 +36,5 @@
 
 .floatingdiv:hover{
     transform: scale(1.1);
-    box-shadow: var(--boxShadow);
+    box-shadow: 10px 0 5px -2px #888;
 }

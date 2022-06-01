@@ -48,15 +48,15 @@ function Intro() {
           <img src={boy} alt=""/>
           <img src={Laptop} alt=""/>
 
-          <div style={{top: '-4%', left:"68%"}}>
+          <div style={{top: '15%', left:"58%"}}>
               <FloatingDiv image={Logoreact} txt1='Web' txt2='Developer'/>
           </div>
-          <div style={{top: '18rem', left:'0rem'}}>
+          <div style={{top: '18rem', left:'0rem' }}>
           <FloatingDiv image={thumbup} txt1='FrontEnd' txt2='Designer'/>
           </div>
-          <div>
-            <div className="blur" style={{backgroundColor: "rgb(238 210 255"}}></div>
-          </div>
+          <div style={{top:"-10rem", left:"20rem", marginLeft:"5px"}}>
+     <div className="blur" style={{backgroundColor: "rgb(238 210 255"}}></div>
+   </div>
       </div>
     </div>
   );
