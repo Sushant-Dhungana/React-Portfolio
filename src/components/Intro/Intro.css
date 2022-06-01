@@ -63,7 +63,7 @@
 }
 
 .i-right>:nth-child(1){
-    transform: scale(0.69);
+    transform: scale(0.69) ;
     left: -15%;
     top:-9%
 }
@@ -73,6 +73,7 @@
     transform: scale(0.67);
     left: -3rem;
 }
+
 
 .i-right>:nth-child(3){
     transform: scale(1.2);
@@ -90,16 +91,20 @@
 }
 .i-right>:nth-child(4):hover{
     transform: scale(0.7);
+    transition: all 0.5s ease-in-out;
 }
 
 
 
 .blur{
-    width: 25rem;
+    position: absolute;
+    width: 22rem;
     height: 14rem;
     border-radius: 50%;
-    background-color: #dabdec;
+    background-color: #dabdec ;
     z-index: -9;
-    filter: blur(80px);
+    top: -18%;
+    left: 56%;
+    filter: blur(50px);
   
   }

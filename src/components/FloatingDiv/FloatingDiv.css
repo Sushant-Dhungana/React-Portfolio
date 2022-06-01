@@ -19,6 +19,7 @@
 }
 .floatingdiv>img:hover{
         transform: scale(0.5);
+        transition: all 0.5s ease-in-out;
         
         
 }
@@ -37,4 +38,5 @@
 .floatingdiv:hover{
     transform: scale(1.1);
     box-shadow: 10px 0 5px -2px #888;
+    transition: all 0.5s ease-in-out;
 }

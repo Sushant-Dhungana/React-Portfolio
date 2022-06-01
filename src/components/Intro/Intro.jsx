@@ -54,11 +54,17 @@ function Intro() {
           <div style={{top: '18rem', left:'0rem' }}>
           <FloatingDiv image={thumbup} txt1='FrontEnd' txt2='Designer'/>
           </div>
-          <div style={{top:"-10rem", left:"20rem", marginLeft:"5px"}}>
+       
      <div className="blur" style={{backgroundColor: "rgb(238 210 255"}}></div>
+     <div className="blur" style={{
+       background:  "#C1F5FF",
+       top: "17rem",
+       width: '21rem',
+       height: "11rem",
+       left: '-9rem',
+     }}></div>
    </div>
       </div>
-    </div>
   );
 }
 
