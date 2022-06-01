@@ -1,11 +1,14 @@
 
 import './App.css';
+import Intro from './components/Intro/Intro';
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-    <h1>Portfolio</h1>
+    <Navbar/>
+    <Intro/>
 
     </div>
   );
