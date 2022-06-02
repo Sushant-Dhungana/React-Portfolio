@@ -2,7 +2,7 @@
 import './App.css';
 import Intro from './components/Intro/Intro';
 import Navbar from './components/Navbar/Navbar';
-import Services from './components/Services/Services';
+import Experience from './experience/Experience';
 
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
     <Navbar/>
     <Intro/>
-    <Services/>
+    <Experience/>
+ 
 
     
    </div>

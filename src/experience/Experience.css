@@ -1,0 +1,34 @@
+.experience{
+    color:var(--orange);
+}
+
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__container > div {
+    background: rgb(185, 175, 175);
+    padding: 2.4rem 5rem;
+    border-radius:2rem;
+    border: 1px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+.experience__container > div:hover{
+    background: transparent;
+    border-color: rgb(231, 144, 39);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(119, 13, 13);
+    font-size: 2rem;
+
+}
+.experience__container > div h3:hover{
+    color: var(--orange);
+}
+
