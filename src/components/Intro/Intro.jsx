@@ -47,7 +47,7 @@ function Intro() {
           <img src={boy} alt=""/>
           <img src={Laptop} alt=""/>
 
-          <div style={{top: '15%', left:"58%"}}>
+          <div style={{top: '20%', left:"60%"}} >
               <FloatingDiv image={Logoreact} txt1='Web' txt2='Developer'/>
           </div>
           <div style={{top: '18rem', left:'0rem' }}>
