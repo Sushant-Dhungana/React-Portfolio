@@ -106,6 +106,22 @@
     z-index: -9;
     top: -18%;
     left: 56%;
-    filter: blur(50px);
+    filter: blur(40px);
   
+  }
+  @media screen and (max-width: 480px) {
+    .intro {
+      flex-direction: column;
+      gap: -2rem;
+      height: 64rem;
+    }
+  
+    .i-right {
+      transform: scale(0.7);
+      left: -5rem;
+      top: -20px;
+    }
+    .i-right .blur {
+      display: none;
+    }
   }

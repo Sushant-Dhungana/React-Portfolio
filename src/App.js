@@ -1,14 +1,14 @@
 
 import './App.css';
 import Intro from './components/Intro/Intro';
-import Navbar from './components/Navbar/Navbar';
+import Nav from './components/Navbar/Nav';
 import Experience from './experience/Experience';
 
 
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+    <Nav/>
     <Intro/>
     <Experience/>
  

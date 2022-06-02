@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="n-right">
                 <div className="n-list">
                     <ul style={{listStyleType:"none"}}>
-                        <li>Home</li>
+                        <li >Home</li>
                         <li>About</li>
                         <li>Skills</li>
                     </ul>

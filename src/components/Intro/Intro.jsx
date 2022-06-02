@@ -8,7 +8,6 @@ import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import Logoreact from "../../img/logoreact.png";
-import glassesimoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv.jsx";
 import Laptop from "../../img/laptop.png";
 
