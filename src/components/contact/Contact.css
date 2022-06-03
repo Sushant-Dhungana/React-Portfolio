@@ -1,0 +1,150 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+}
+.w-left{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.awesome.one{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid orange;
+    border-radius: 8px;
+    font-size: 16px;   
+}
+.c-right>form .buttonn{
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    z-index: 0;
+    padding: 11px 26px 11px 26px;
+}
+.c-right>form .buttonn:hover{
+    background: white;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+ 
+.works {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+  
+    /* scroll */
+    align-items: center;
+  }
+  /* left side */
+  .awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .awesome > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(3) {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  @media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+} 
+
+ 
+  @media screen and (max-width: 1024px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 3rem;
+        height: 35rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+   
+
+} 
+
+  @media screen and (max-width: 480px) {
+    .awesome {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+
+    }
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 3rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+ 
+}
+  

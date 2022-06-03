@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Contact } from './components/contact/Contact';
 import Intro from './components/Intro/Intro';
 import Nav from './components/Navbar/Nav';
 import Experience from './experience/Experience';
@@ -11,6 +12,7 @@ function App() {
     <Nav/>
     <Intro/>
     <Experience/>
+    <Contact/>
  
 
     

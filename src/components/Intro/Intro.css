@@ -95,6 +95,14 @@
     transition: all 0.5s ease-in-out;
 }
 
+.right-floatingdiv{
+    top: 20%;
+    left: 60%;
+}
+.left-floatingdiv{
+    top: 18rem;
+    left: 2rem;
+}
 
 
 .blur{
@@ -124,6 +132,10 @@
     .i-right .blur {
       display:inline
     }
+    .right-floatingdiv{
+        top: 30%;
+        left: 60%;
+    }
   }
   @media screen and (max-width: 600px) {
     .intro {
@@ -145,8 +157,12 @@
         margin-top: 1rem;
     }
 
-    .floatingdiv>:nth-child(1) {
-        top: -7rem !important;
-
-      }
+    .right-floatingdiv{
+        top: 30%;
+        left: 100%;
+    }
+    .left-floatingdiv{
+        top: 18rem;
+        left: 2rem;
+    }
   }
