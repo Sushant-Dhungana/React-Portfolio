@@ -109,6 +109,27 @@
     filter: blur(40px);
   
   }
+  @media screen and (max-width: 1024px) {
+    .intro {
+      flex-direction: column;
+      gap: -10rem;
+      height: 55rem;
+    }
+  
+    .i-right {
+      transform: scale(0.8);
+      left: -2rem;
+      top: -20px;
+    }
+    .i-right .blur {
+      display:inline
+    }
+
+    .floating-div>:nth-child(1) {
+        top: -7rem!important;
+
+      }
+  }
   @media screen and (max-width: 600px) {
     .intro {
       flex-direction: column;
