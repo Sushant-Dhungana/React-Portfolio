@@ -34,6 +34,7 @@
     display: grid;
     grid-template-columns: 1fr  ;
     column-gap: 2rem;
+
 }
 
 .experience__details{
@@ -71,7 +72,7 @@
              display: grid;
              justify-content: center;
              gap: 1rem;
-             margin-right: 5px;
+             margin-right: 20px;
             
          }
          .experience__container > div {
