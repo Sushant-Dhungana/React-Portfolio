@@ -11,15 +11,19 @@ import Logoreact from "../../img/logoreact.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv.jsx";
 import Laptop from "../../img/laptop.png";
 import {motion} from 'framer-motion';
+import {themeContext} from '../../Context';
+import { useContext } from 'react';
 
 function Intro() {
   const transition = {duration : 2, type:'spring'}
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
   
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Sushant Dhungana</span>
+          <span style={{color: darkMode? 'white' : '',}}>Sushant Dhungana</span>
           {/* <Typical
           steps={[
               'Software Engineer', 1000, 'Web Developer', 1000,

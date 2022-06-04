@@ -18,6 +18,7 @@ export const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+        e.target.reset();
     }
   return (
     <section id="contact">
@@ -31,11 +32,12 @@ export const Contact = () => {
         </div>
         <div className="c-right">
             <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="user_name" className='user' placeholder="Name"/>
-                <input type="email" name="user_email" className='user' placeholder="Email"/>
-                <textarea name="message" className="user" placeholder="Message"/>
-                <input type="submit" value="Send" className='buttonn'/>
+                <input type="text" name="user_name" className='user' placeholder="Name" required/>
+                <input type="email" name="email" className='user' placeholder="Email" required/>
+                <textarea name="message" className="user" placeholder="Message" required/>
+                <input type="submit" value="Send" className='buttonn' />
                 <span>{done && "Thanks for contacting me!!"}</span>
+              
                 <div className='blur c-blur1' style={{background:"skyblue"}}></div>
             </form>
         </div>
