@@ -18,7 +18,7 @@ export const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
-        e.target.reset();
+        e.target.reset(); //for clearing form after submission
     }
   return (
     <section id="contact">

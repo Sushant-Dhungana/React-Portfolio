@@ -1,4 +1,4 @@
-
+// all components are rendered here for home page display
 import './App.css';
 import { Contact } from './components/contact/Contact';
 import Intro from './components/Intro/Intro';

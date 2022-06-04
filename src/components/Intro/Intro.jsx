@@ -1,3 +1,5 @@
+// intro page and is divided into two sections i-left and i-right
+
 import React from "react";
 import "./Intro.css";
 import Github from "../../img/github.png";

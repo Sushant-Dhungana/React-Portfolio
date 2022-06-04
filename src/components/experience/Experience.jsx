@@ -1,9 +1,9 @@
+// experience section
 import React, { useEffect } from "react";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import SchoolIcon from "@mui/icons-material/School";
 import "./Experience.css";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Experience() {
