@@ -13,9 +13,15 @@ export default function Footer() {
         <div className="f-content">
             <span>sushantdhungana29@gmail.com</span>
             <div className='f-icons'>
+              <a href="https://instagram.com/sushant_dhungana29?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer" >
                 <Insta color='black' size='3rem'/>
+                </a>
+                <a href="https://www.facebook.com/Dhunganasushant1029" target="_blank" rel="noreferrer">
                 <Facebook color='black' size='3rem'/>
+                </a>
+                <a href="https://github.com/Sushant-Dhungana" target="_blank" rel="noreferrer">
                 <Github color='black' size='3rem'/>
+                </a>
             </div>
 
         </div>

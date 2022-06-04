@@ -3,7 +3,7 @@ import './App.css';
 import { Contact } from './components/contact/Contact';
 import Intro from './components/Intro/Intro';
 import Nav from './components/Navbar/Nav';
-import Experience from './experience/Experience';
+import Experience from './components/experience/Experience';
 import Footer from './components/Footer/Footer';
 import {themeContext} from "./Context";
 import {useContext} from 'react';
