@@ -10,8 +10,10 @@ import thumbup from "../../img/thumbup.png";
 import Logoreact from "../../img/logoreact.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv.jsx";
 import Laptop from "../../img/laptop.png";
+import {motion} from 'framer-motion';
 
 function Intro() {
+  const transition = {duration : 2, type:'spring'}
   return (
     <div className="intro">
       <div className="i-left">
@@ -45,16 +47,30 @@ function Intro() {
           <img src={Vector1} alt=""/>
           <img src={Vector2} alt=""/>
           <img src={boy} alt=""/>
-          <img src={Laptop} alt=""/>
+          <motion.img 
+          initial={{left: '-26%'}}
+          whileInView={{left: '-14%'}}
+          transition = {transition}
+          src={Laptop} alt=""/>
 
           {/* <div style={{top: '20%', left:"60%"}} > */}
-          <div className="right-floatingdiv">
+          <motion.div
+           initial={{top:"20%", left: '70%'}}
+           whileInView={{ left: '60%'}}
+           transition = {transition}
+ 
+          className="right-floatingdiv">
               <FloatingDiv image={Logoreact} txt1='Web' txt2='Developer'/>
-          </div>
+          </motion.div>
           {/* <div style={{top: '18rem', left:'0rem' }}> */}
-          <div className="left-floatingdiv">
+          <motion.div 
+          initial={{top: '18rem',left: '9rem' }}
+          whileInView={{left: '0rem'}}
+          transition = {transition}
+          
+          className="left-floatingdiv">
           <FloatingDiv image={thumbup} txt1='FrontEnd' txt2='Designer'/>
-          </div>
+          </motion.div>
        
      <div className="blur" style={{backgroundColor: "rgb(238 210 255"}}></div>
      <div className="blur" style={{
