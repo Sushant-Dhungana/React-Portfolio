@@ -15,6 +15,7 @@ import {motion} from 'framer-motion';
 function Intro() {
   const transition = {duration : 2, type:'spring'}
   return (
+  
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
@@ -83,6 +84,7 @@ function Intro() {
    </div>
   
       </div>
+
   );
 }
 
