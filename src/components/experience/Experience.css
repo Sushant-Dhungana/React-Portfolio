@@ -70,10 +70,14 @@
  
  @media screen and (max-width: 600px) {
          .experience__container {
+            margin-top: 3rem;
              display: grid;
              justify-content: center;
+             align-items: center;
              gap: 1rem;
-             margin-right: 20px;
+             margin-right: 10px;
+             
+            
             
          }
          .experience__container > div {

@@ -1,6 +1,6 @@
 // intro page and is divided into two sections i-left and i-right
 
-import React from "react";
+import React, { useEffect } from "react";
 import "./Intro.css";
 import Github from "../../img/github.png";
 import Linkedin from "../../img/linkedin.png";
@@ -15,9 +15,13 @@ import Laptop from "../../img/laptop.png";
 import { motion } from "framer-motion";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
-import {MdLocationPin} from 'react-icons/md';
+import { MdLocationPin } from "react-icons/md";
+import Aos from "aos";
 
 function Intro() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -35,11 +39,12 @@ function Intro() {
           loop={Infinity}
           /> */}
           <span>Software Engineer</span>
-        
-          
-          <span style={{color: darkMode ? "white" : ""}} ><MdLocationPin/>Pokhara, Nepal</span>
-          
-        
+
+          <span style={{ color: darkMode ? "white" : "" }}>
+            <MdLocationPin />
+            Pokhara, Nepal
+          </span>
+
           <span>
             Frontend Developer with excellent level of development skills.
           </span>
@@ -51,13 +56,25 @@ function Intro() {
           Lets Talk
         </button>
         <div className="i-icons">
-          <a href="https://github.com/Sushant-Dhungana" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/Sushant-Dhungana"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={Github} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/sushant-dhungana-559967206/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/sushant-dhungana-559967206/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={Linkedin} alt="" />
           </a>
-          <a href="https://instagram.com/sushant_dhungana29?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+          <a
+            href="https://instagram.com/sushant_dhungana29?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={Instagram} alt="" />
           </a>
         </div>
@@ -75,23 +92,13 @@ function Intro() {
         />
 
         {/* <div style={{top: '20%', left:"60%"}} > */}
-        <motion.div
-          initial={{ top: "20%", left: "70%" }}
-          whileInView={{ left: "60%" }}
-          transition={transition}
-          className="right-floatingdiv"
-        >
+        <div data-aos="fade-left" className="right-floatingdiv">
           <FloatingDiv image={Logoreact} txt1="Web" txt2="Developer" />
-        </motion.div>
+        </div>
         {/* <div style={{top: '18rem', left:'0rem' }}> */}
-        <motion.div
-          initial={{ top: "18rem", left: "9rem" }}
-          whileInView={{ left: "0rem" }}
-          transition={transition}
-          className="left-floatingdiv"
-        >
+        <div data-aos="fade-right" className="left-floatingdiv">
           <FloatingDiv image={thumbup} txt1="FrontEnd" txt2="Designer" />
-        </motion.div>
+        </div>
 
         <div
           className="blur"
