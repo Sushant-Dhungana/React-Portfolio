@@ -84,11 +84,13 @@ function Intro() {
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
         <motion.img
+         style={{ color: darkMode ? "white" : "" }}
           initial={{ left: "-26%" }}
           whileInView={{ left: "-14%" }}
           transition={transition}
           src={Laptop}
           alt=""
+         
         />
 
         {/* <div style={{top: '20%', left:"60%"}} > */}
