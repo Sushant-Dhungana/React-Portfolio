@@ -12,10 +12,10 @@ export const Contact = () => {
       e.preventDefault();
   
       emailjs.sendForm('service_xhnqr2w', 'template_1rx274q', form.current, 'ruxkwPmCSCd0vfHQy')
-        .then((result) => {
+        .then(result => {
             console.log(result.text);
             setDone(true);
-        }, (error) => {
+        }).catch(error => {
             console.log(error.text);
         });
         e.target.reset(); //for clearing form after submission
