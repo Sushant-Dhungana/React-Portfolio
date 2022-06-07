@@ -33,7 +33,7 @@ export const Contact = () => {
         <div className="c-right">
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name="user_name" className='user' placeholder="Name" required/>
-                <input type="email" name="email" className='user' placeholder="Email" required/>
+                <input type="email" name="user_email" className='user' placeholder="Email" required/>
                 <textarea name="message" className="user" placeholder="Message" required/>
                 <input type="submit" value="Send" className='buttonn' />
                 <span>{done && "Thanks for contacting me!!"}</span>

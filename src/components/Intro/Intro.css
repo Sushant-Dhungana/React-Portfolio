@@ -49,6 +49,7 @@
     text-decoration: none;
     width: 6rem;
     height: 2rem;
+    z-index:1;
 }
 .i-icons{
     margin-top: 1rem;
@@ -139,7 +140,7 @@
   
     .i-right {
       transform: scale(0.8);
-      left: -2rem;
+      left: 5rem;
       top: -20px;
     }
     .i-right .blur {
