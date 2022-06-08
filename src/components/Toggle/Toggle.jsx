@@ -11,7 +11,7 @@ export default function Toggle() {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     const handleClick = ()=>{
-        theme.dispatch({type:'toggle'})
+        theme.dispatch({type: 'toggle'});
     }
   return (
     <div className="toggle" onClick={handleClick}>

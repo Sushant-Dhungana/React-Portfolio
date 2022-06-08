@@ -1,19 +1,16 @@
 // experience section
-import React, { useEffect } from "react";
+import React from "react";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import SchoolIcon from "@mui/icons-material/School";
 import "./Experience.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 function Experience() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+
   return (
     <section id="about">
       <div className="container experience__container">
-        <div data-aos='fade-up' className="experience__webdesign">
+        <div  className="experience__webdesign">
           <h3>Web Development</h3>
           <div className="experience__content">
             <article className="experience__details">
@@ -40,7 +37,7 @@ function Experience() {
           </div>
         </div>
 
-        <div data-aos="fade-right" className="experience__webdevelopment">
+        <div  className="experience__webdevelopment">
           <h3>Qualification</h3>
           <div className="experience__content">
             <article className="experience__details">
@@ -68,6 +65,7 @@ function Experience() {
         </div>
         
       </div>
+     
     </section>
   );
 }
