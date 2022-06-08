@@ -1,11 +1,11 @@
 // all components are rendered here for home page display
 import React from "react";
 import './App.css';
-import  Contact  from './components/contact/Contact';
-import Intro from './components/Intro/Intro';
-import Nav from './components/Navbar/Nav';
-import Experience from './components/experience/Experience';
-import Footer from './components/Footer/Footer';
+import  Contact  from './components/contact/Contact.jsx';
+import Intro from './components/Intro/Intro.jsx';
+import Nav from './components/Navbar/Nav.jsx';
+import Experience from './components/experience/Experience.jsx';
+import Footer from './components/Footer/Footer.jsx';
 import {themeContext} from "./Context";
 import {useContext} from 'react';
 
