@@ -24,6 +24,7 @@ function Intro() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
+    <section id="#">
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
@@ -117,6 +118,7 @@ function Intro() {
       </div>
     
     </div>
+    </section>
   );
 }
 
