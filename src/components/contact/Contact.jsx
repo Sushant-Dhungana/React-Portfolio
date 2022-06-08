@@ -3,8 +3,8 @@ import "./Contact.css";
 import emailjs from '@emailjs/browser';
 import {useRef} from 'react';
 
-export const Contact = () => {
-
+function Contact() {
+    
     const form = useRef();
     const [done, setDone] = useState(false);
 
@@ -15,11 +15,10 @@ export const Contact = () => {
         .then((result) => {
             console.log(result.text);
             setDone(true);
-            form.reset();
-        }).catch(error => {
+        }, (error )=> {
             console.log(error.text);
         });
-       
+        e.target.reset(); //for clearing form after submission
     }
   return (
     <section id="contact">
@@ -45,4 +44,6 @@ export const Contact = () => {
     </div>
     </section>
   )
-    }
+}
+
+export default Contact

@@ -1,6 +1,7 @@
 // all components are rendered here for home page display
+import React from "react";
 import './App.css';
-import { Contact } from './components/contact/Contact';
+import  Contact  from './components/contact/Contact';
 import Intro from './components/Intro/Intro';
 import Nav from './components/Navbar/Nav';
 import Experience from './components/experience/Experience';
