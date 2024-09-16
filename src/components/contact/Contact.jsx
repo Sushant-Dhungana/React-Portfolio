@@ -25,7 +25,7 @@ function Contact() {
     <div className="contact-form">
         <div className="w-left">
             <div className="awesome">
-                <span>Contact Me</span>
+                <span>Contact Me for research and collaboration</span>
                 <span>Send me an Email</span>
                 <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div>
             </div>

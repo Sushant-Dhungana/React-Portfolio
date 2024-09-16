@@ -16,7 +16,7 @@ function Experience() {
             <article className="experience__details">
               <VerifiedIcon className="experience__details-icon" />
               <div>
-                <h4>HTML,CSS and Bootstrap</h4>
+                <h4>Python Programming</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -25,13 +25,6 @@ function Experience() {
               <div>
                 <h4>Javascript and ReactJs</h4>
                 <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <VerifiedIcon className="experience__details-icon" />
-              <div>
-                <h4>Flutter</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
